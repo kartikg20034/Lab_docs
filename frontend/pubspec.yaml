@@ -1,0 +1,14 @@
+name: omnilab_frontend
+description: A high-ownership science simulation engine.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.1.0  # Crucial for backend communication
+
+flutter:
+  uses-material-design: true
